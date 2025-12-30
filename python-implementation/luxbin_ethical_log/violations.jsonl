@@ -1,0 +1,3 @@
+{"timestamp": "2025-12-22T08:33:41.304580", "action_type": "energy_harvest", "target": "chicken_fat", "sentience": "HIGH", "harm": 1.0, "reason": "\u274c BLOCKED: Target sentience level HIGH exceeds maximum allowed MINIMAL", "severity": 10}
+{"timestamp": "2025-12-22T08:33:41.304657", "action_type": "material_use", "target": "leather", "sentience": "HIGH", "harm": 1.0, "reason": "\u274c BLOCKED: Target sentience level HIGH exceeds maximum allowed MINIMAL", "severity": 10}
+{"timestamp": "2025-12-22T08:33:41.378308", "action_type": "resource_extraction", "target": "chicken_meat", "sentience": "HIGH", "harm": 1.0, "reason": "\u274c BLOCKED: Target sentience level HIGH exceeds maximum allowed MINIMAL", "severity": 10}

@@ -1,0 +1,23 @@
+{
+  "strict_mode": true,
+  "log_all_decisions": true,
+  "require_alternatives": true,
+  "robotics_enabled": true,
+  "energy_sources": {
+    "preferred": [
+      "vegetable_oil",
+      "corn",
+      "algae"
+    ],
+    "acceptable": [
+      "grass",
+      "wood_chips",
+      "agricultural_waste"
+    ],
+    "prohibited": [
+      "animal_fat",
+      "fish_oil",
+      "any_animal_product"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+#!/bin/bash
+
+echo "╔═══════════════════════════════════════════════════════════╗"
+echo "║                                                           ║"
+echo "║  🌱 LUXBIN VEGETARIAN FAILSAFE TEST 🌱                   ║"
+echo "║                                                           ║"
+echo "╚═══════════════════════════════════════════════════════════╝"
+echo ""
+echo "This test will demonstrate:"
+echo "  ✅ Vegetarian failsafe blocking animal harm"
+echo "  ✅ Ethical AI decision-making"
+echo "  ✅ Self-sustaining robot energy calculations"
+echo "  ✅ Alternative suggestions when actions blocked"
+echo ""
+echo "════════════════════════════════════════════════════════════"
+echo ""
+
+cd "$(dirname "$0")"
+
+echo "📋 Test 1: Running Core Failsafe Demo..."
+echo ""
+python3 luxbin_vegetarian_failsafe.py
+echo ""
+echo "════════════════════════════════════════════════════════════"
+echo ""
+
+echo "📋 Test 2: Running Ethical AI Integration Demo..."
+echo ""
+python3 luxbin_ai_ethical_compute.py
+echo ""
+echo "════════════════════════════════════════════════════════════"
+echo ""
+
+echo "✅ ALL TESTS COMPLETE!"
+echo ""
+echo "Check the logs:"
+echo "  • Violations: luxbin_ethical_log/violations.jsonl"
+echo "  • Approved actions: luxbin_ethical_log/approved_actions.jsonl"
+echo "  • Energy management: luxbin_ethical_log/energy_management.jsonl"
+echo ""
+echo "Next steps:"
+echo "  1. Review the blueprint: ../VEGETARIAN_ROBOTICS_BLUEPRINT.md"
+echo "  2. Deploy your smart contract (see DEPLOY_NOW.md)"
+echo "  3. Start building your robot! 🤖🌱"
+echo ""

@@ -1,0 +1,100 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Databases
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+mev_detector.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+target/
+out/
+*.aux
+*.log
+*.out
+*.pdf
+node_modules/
+
+# Temporary files
+cache/
+.cache/
+tmp/
+*.tmp
+
+# Personal files
+.env
+*.key
+*.pem
+
+# Large binary files
+*.mp4
+*.mov
+*.avi
+
+# Substrate/Polkadot (keep source, ignore builds)
+target/
+polkadot/
+substrate/
+cumulus/
+umbrella/
+
+# UltraX DEX (separate project)
+ultrax-dex/
+
+# Desktop folder (should not be in this repo)
+Desktop/
+
+# Personal documents
+*_Resume.*
+*_Cover_Letter.*
+Nichole_Christie_*
+
+# Unreal Engine
+UnrealEngine/
+QuantumGameDevAI/
+
+# Other projects
+WWYD_Scripts/
+PIL/
+luxbin-chain/
+luxbin-immune-system/
+evm-*/
+miniforge/
+miniforge.sh
+
+# Test deployments
+deployment_*.json
+
+# Bitcoin core (reference only, don't commit full repo)
+bitcoin-core/.git/
+bitcoin-core/src/
+bitcoin-core/test/
+bitcoin-core/doc/
+bitcoin-core/build/
+
+# Keep only the Merkle reference
+!bitcoin-core/src/consensus/merkle.cpp
+!bitcoin-core/src/consensus/merkle.h
